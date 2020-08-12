@@ -1,7 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { GlobalStyle } from "./components/styles/GlobalStyle";
+
+import { NavBar } from "./components/templates/NavBar";
 
 function App() {
-  return <h1>La app funciona</h1>;
+  return (
+    <Fragment>
+      <GlobalStyle />
+      <NavBar />
+    </Fragment>
+  );
 }
 
 export default App;

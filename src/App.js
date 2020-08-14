@@ -5,6 +5,7 @@ import { NavBar } from "./components/templates/NavBar";
 import { Slider } from "./components/templates/Slider";
 import CategoryBar from "./components/templates/CategoryBar";
 import Highlights from "./components/templates/Highlights";
+import Footer from "./components/templates/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Slider />
       <CategoryBar />
       <Highlights />
+      <Footer />
     </Fragment>
   );
 }
